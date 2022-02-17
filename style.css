@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: crimson;
+    overflow: hidden;
+    
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 30px ;
+    padding: 20px;
+    
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #F9F9FF;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+header .nav ul li a:hover{
+    color: #000000;
+}
+
+.checkbtn {
+    display: none;
+    font-size:30px;
+    color: rgba(0,0,0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+}
+#check {
+    display: none;
+}
+/*Section One Start*/
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.head1{
+    width: 50%;
+}
+.head1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+
+.head1 h3{
+    font-weight: normal;
+}
+.head1 h1{
+    font-size: 60px;
+}
+.head1 input{
+    padding: 12px 25px;
+    background-color: crimson;
+    outline: none;
+    color: white;
+    border: 1px solid crimson;
+    font-size: 15px;
+    cursor: pointer;
+}
+.head1 input:hover{
+    box-shadow:5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*Section One End*/
+
+/*Section Two Start*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 60%;
+    height: auto;
+    padding-left: 80px;
+}
+.section2 .img2{
+    padding-left: 80px;
+}
+
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 16px;
+    color: black;
+    width: 100%;
+}
+.text2 input{
+    font-size: 20px;
+    padding: 12px 16px;
+    outline: none;
+    color: white;
+    background-color: #8293ff;
+    border: none;
+}
+.text2 input:hover{
+    box-shadow:5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*Section Two End*/
